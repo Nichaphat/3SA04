@@ -46,7 +46,7 @@ const style = StyleSheet.create({
         margin: 20,
         alignItems: "center",   
         flexDirection: "column-reverse",
-    
+        justifyContent : "space-between" 
         },
     backdrop: {
         alignItems: 'center',
