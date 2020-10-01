@@ -32,6 +32,15 @@ export default function ZipCodeScreen() {
                 keyExtractor={_keyExtractor}
                 renderItem={({ item }) => <ZipItem {...item} navigation={navigation} />}
             />
+            <TouchableHighlight 
+             onPress={()=>{
+                 navigation.navigate('Currency')
+             }}
+            >
+                <View style= {{backgroundColor: 'lightblue',padding: 20, margin:10, alignItems: "center"}}>
+                    <Text>Currency</Text>
+                </View>
+            </TouchableHighlight>
             <StatusBar style="auto" />
         </View>
     );
