@@ -44,7 +44,9 @@ const style = StyleSheet.create({
         paddingHorizontal: 60,
         paddingVertical: 60,
         margin: 20,
-        alignItems: "center",    
+        alignItems: "center",   
+        flexDirection: "column-reverse",
+        justifyContent : "space-between" 
     },
     backdrop: {
         alignItems: 'center',
